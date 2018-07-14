@@ -78,6 +78,7 @@ var educationSection = document.getElementById('education');
 var educationTitle = document.getElementById('educationTitle');
 var contactSection = document.getElementById('contactList');
 var contactTitle = document.getElementById('contactTitle');
+var map;
 var footer = document.getElementById('footerList')
 
 
@@ -302,6 +303,15 @@ function createContact() {
 }
 
 createContact();
+
+function initMap() {
+  var location = {lat: 33.951935, lng: -83.357567};
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: location,
+    zoom: 6
+  });
+  var marker = new google.maps.Marker({position: location, map: map});
+}
 
 function createFooter() {
   contact.contactType.forEach((item) => {

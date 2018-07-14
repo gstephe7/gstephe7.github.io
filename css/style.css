@@ -162,6 +162,12 @@ canvas {
     margin-top: 25px;
   }
 
+  #map {
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+  }
+
   .footer {
     background-color: rgba(25, 25, 25, 1);
     width: 100vw;
@@ -304,6 +310,12 @@ canvas {
   .sectionSchoolImage {
     width: 150px;
     margin-top: 25px;
+  }
+
+  #map {
+    margin-top: 50px;
+    height: 400px;
+    width: 600px;
   }
 
   .footer {
