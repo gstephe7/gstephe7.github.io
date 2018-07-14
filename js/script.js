@@ -39,7 +39,7 @@ var projects = {
   title: 'PROJECTS',
   projectsList: [
     { name: 'ETFInvestorProfile', img: 'img/project-etf.jpg', alt: 'ETF Investor Profile Project', href: 'https://gstephe7.github.io/etf-investor-profile/', description: 'Created a web application that generates an investment portfolio depending on the user’s financial situation. I implemented React.js, CSS, and Bootstrap to create this application. Adobe Illustrator was used to create illustrations.' },
-    { name: 'WhichInvestmentAccount', img: 'img/project-wia.jpg', alt: 'Which Investment Account Project', href: 'https://gstephe7.github.io/which-investment-account/', description: 'Created a web application that helps users determine the right investment account to open depending on their financial situation. I implemented React.js, CSS, and Bootstrap to create this application. Adobe Illustrator was used to create illustrations. Ads were placed on the app using Google Adsense.' }
+    { name: 'Which Investment Account', img: 'img/project-wia.jpg', alt: 'Which Investment Account Project', href: 'https://gstephe7.github.io/which-investment-account/', description: 'Created a web application that helps users determine the right investment account to open depending on their financial situation. I implemented React.js, CSS, and Bootstrap to create this application. Adobe Illustrator was used to create illustrations. Ads were placed on the app using Google Adsense.' }
   ]
 }
 
