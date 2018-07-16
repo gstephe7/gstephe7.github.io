@@ -79,12 +79,10 @@ canvas {
     margin-right: 15px;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
-    opacity: .85;
     transition: 500ms all;
   }
 
   .menuItem:hover {
-    opacity: 1;
     font-weight: bold;
     text-decoration: none;
     color: rgb(216, 210, 156);
