@@ -35,7 +35,7 @@ canvas {
     margin-top: 10px;
   }
 
-  #menuBtn {
+  #menuBtn, #menuBtn:focus {
     margin-top: 15px;
     margin-right: 20px;
     height: 40px;
@@ -44,6 +44,14 @@ canvas {
     color: rgb(216, 210, 156);
     font-size: 26px;
     border: none;
+    outline: 0;
+    opacity: .85;
+    transition: 500ms all;
+  }
+
+  #menuBtn:hover {
+    opacity: 1;
+    width: 45px;
   }
 
   .mobileMenu {
@@ -63,14 +71,23 @@ canvas {
     opacity: 1;
   }
 
-  .menuItem, .menuItem:hover {
+  .menuItem {
     color: rgb(216, 210, 156);
     list-style-type: none;
     font-size: 24px;
     margin-top: 3px;
-    margin-right: 10px;
+    margin-right: 15px;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
+    opacity: .85;
+    transition: 500ms all;
+  }
+
+  .menuItem:hover {
+    opacity: 1;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(216, 210, 156);
   }
 
   #jumbotron {
@@ -145,6 +162,7 @@ canvas {
 
   .sectionList {
       margin-top: 25px;
+      height: 300px;
       padding: 0;
   }
 
@@ -155,6 +173,10 @@ canvas {
     opacity: .8;
     margin: 5px;
     transition: 500ms all;
+  }
+
+  .sectionLogo:hover {
+    opacity: 1;
   }
 
   .sectionSchoolImage {
@@ -171,6 +193,7 @@ canvas {
   .footer {
     background-color: rgba(25, 25, 25, 1);
     width: 100vw;
+    height: 80px;
     left: 0;
     margin-top: 25px;
   }
@@ -183,15 +206,16 @@ canvas {
     color: rgb(216, 210, 156);
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    margin-right: 15px;
+    margin-right: 20px;
     display: inline;
     list-style-type: none;
+    transition: 500ms all;
   }
 }
 
 @media screen and (min-width: 768px) {
   .desktopNav {
-    background-color: rgba(25, 25, 25, 1);
+    background-color: rgba(25, 25, 25, .75);
     position: fixed;
     overflow: hidden;
     height: 80px;
@@ -209,7 +233,7 @@ canvas {
     margin-top: 45px;
   }
 
-  .menuItem, .menuItem:hover {
+  .menuItem {
     list-style-type: none;
     display: inline;
     font-family: 'Raleway', sans-serif;
@@ -217,6 +241,15 @@ canvas {
     color: rgb(216, 210, 156);
     font-size: 20px;
     margin-right: 20px;
+    opacity: .85;
+    transition: 500ms all;
+  }
+
+  .menuItem:hover {
+    color: rgb(216, 210, 156);
+    text-decoration: none;
+    opacity: 1;
+    font-weight: bold;
   }
 
   #jumbotron {
@@ -292,6 +325,7 @@ canvas {
   .sectionList {
       margin-top: 25px;
       padding: 0;
+      height: 350px;
   }
 
   .sectionLogo {
@@ -321,12 +355,13 @@ canvas {
   .footer {
     background-color: rgba(25, 25, 25, 1);
     width: 100vw;
+    height: 100px;
     left: 0;
     margin-top: 70px;
   }
 
   .footerList {
-    margin: 20px 0px 20px 0px;
+    margin: 30px 0px 20px 0px;
   }
 
   .footerText {
@@ -336,5 +371,10 @@ canvas {
     margin-right: 25px;
     display: inline;
     list-style-type: none;
+    transition: 500ms all;
+  }
+
+  .footerText:hover {
+    font-size: 26px;
   }
 }

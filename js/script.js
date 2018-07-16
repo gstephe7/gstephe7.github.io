@@ -1,5 +1,5 @@
 
-//MODEL
+////////////////
 
 var nav = {
   logo: 'img/gslogo.png',
@@ -84,7 +84,7 @@ var footer = document.getElementById('footerList')
 
 
 
-//CONTROLLER
+//////////////////////////////
 
 function displayMenu() {
   mobileMenu.classList.toggle('showMenu');
@@ -124,7 +124,7 @@ function displayContact() {
 
 
 
-//VIEW
+//////////////////////////
 
 function createMenu() {
   nav.menu.forEach((item) => {
