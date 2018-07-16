@@ -51,7 +51,7 @@ canvas {
 
   #menuBtn:hover {
     opacity: 1;
-    width: 45px;
+    width: 50px;
   }
 
   .mobileMenu {
@@ -86,6 +86,8 @@ canvas {
     font-weight: bold;
     text-decoration: none;
     color: rgb(216, 210, 156);
+    font-size: 25px;
+    margin-top: 2px;
   }
 
   #jumbotron {
@@ -247,6 +249,8 @@ canvas {
     text-decoration: none;
     opacity: 1;
     font-weight: bold;
+    margin-right: 17px;
+    font-size: 21px;
   }
 
   #jumbotron {
@@ -302,6 +306,12 @@ canvas {
     font-size: 35px;
     margin-top: 35px;
     color: rgb(25, 25, 25);
+    transition: 500ms all;
+  }
+
+  .sectionSubtitle:hover {
+    font-size: 36px;
+    margin-top: 33.5px;
   }
 
   .sectionImage {
@@ -309,6 +319,13 @@ canvas {
     margin-bottom: 25px;
     width: 300px;
     border: thin solid rgba(32, 36, 48, .5);
+    transition: 500ms all;
+  }
+
+  .sectionImage:hover {
+    width: 310px;
+    margin-top: 17px;
+    margin-bottom: 17px;
   }
 
   .sectionText {
@@ -322,6 +339,7 @@ canvas {
   .sectionList {
       margin-top: 25px;
       padding: 0;
+      height: 350px;
   }
 
   .sectionLogo {
@@ -335,11 +353,19 @@ canvas {
 
   .sectionLogo:hover {
     opacity: 1;
+    width: 155px;
+    margin: 5px;
   }
 
   .sectionSchoolImage {
     width: 150px;
     margin-top: 25px;
+    transition: 500ms all;
+  }
+
+  .sectionSchoolImage:hover {
+    width: 155px;
+    margin-top: 20px;
   }
 
   #map {
@@ -368,5 +394,10 @@ canvas {
     display: inline;
     list-style-type: none;
     transition: 500ms all;
+  }
+
+  .footerText:hover {
+    font-size: 26px;
+    margin-right: 23px;
   }
 }
