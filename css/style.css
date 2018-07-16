@@ -21,7 +21,7 @@ canvas {
 
 @media screen and (max-width: 767px) {
   #mobileNav {
-    background-color: rgba(25, 25, 25, .75);
+    background-color: rgba(25, 25, 25, .8);
     position: fixed;
     height: 70px;
     width: 100vw;
@@ -55,7 +55,7 @@ canvas {
   }
 
   .mobileMenu {
-    background-color: rgba(25, 25, 25, .75);
+    background-color: rgba(25, 25, 25, .8);
     margin-top: 70px;
     position: fixed;
     overflow: hidden;
@@ -212,7 +212,7 @@ canvas {
 
 @media screen and (min-width: 768px) {
   .desktopNav {
-    background-color: rgba(25, 25, 25, .75);
+    background-color: rgba(25, 25, 25, .8);
     position: fixed;
     overflow: hidden;
     height: 80px;

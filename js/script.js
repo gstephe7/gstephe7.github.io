@@ -344,7 +344,7 @@ var desktopEducation = document.getElementById('desktopEducation');
 var desktopContact = document.getElementById('desktopContact');
 
 menuBtn.addEventListener('click', displayMenu);
-menu.addEventListener('click', displayMenu);
+mobileMenu.addEventListener('click', displayMenu);
 navAbout.addEventListener('click', displayAbout);
 navSkills.addEventListener('click', displaySkills);
 navProjects.addEventListener('click', displayProjects);
