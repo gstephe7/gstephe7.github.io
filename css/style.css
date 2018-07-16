@@ -373,8 +373,4 @@ canvas {
     list-style-type: none;
     transition: 500ms all;
   }
-
-  .footerText:hover {
-    font-size: 26px;
-  }
 }
