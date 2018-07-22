@@ -41,7 +41,7 @@ function initCanvas() {
           starsy[i] = starsy[i] - .15;
         }
       }
-    }, 10);
+    }, 20);
 
   });
 }
